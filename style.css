@@ -1,38 +1,57 @@
-#one{
-    background-color: black;
-    height: 40px;
-    width: 40px;
-    border: 1px solid black;
-}
-#two{
-    background-color: rgb(36, 14, 78);
-    height: 40px;
-    width: 40px;
-    border: 1px solid black;
-}
-#three{
-    background-color: rgb(71, 43, 122);
-    height: 40px;
-    width: 40px;
-    border: 1px solid black;
-}
-#four{
-    background-color: rgb(134, 98, 199);
-    height: 40px;
-    width: 40px;
-    border: 1px solid black;
+#one {
+  background-color: black;
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
 }
 
-#one, #two, #three, #four{
-    display:inline-flex
+#two {
+  background-color: rgb(36, 14, 78);
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
 }
-/* .pixel-board{
-    background-color: white;
-    border: 1px solid black;
+
+#three {
+  background-color: rgb(71, 43, 122);
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
 }
-.pixel{
-    background-color: white;
-    border: 1px solid black;
-    height: 39px;
-    width: 39px;
-} */
+
+#four {
+  background-color: rgb(134, 98, 199);
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+}
+
+#one , #two , #three , #four {
+  display: inline-flex;
+}
+
+#pixel-board {
+  background: black;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 39px);
+  grid-template-rows: repeat(5, 39px);
+  grid-gap: 1px;
+}
+
+.pixel {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 3rem;
+  font-weight: 600;
+  background: white;
+}
+
+.pixel:houver {
+  background-color: blue;
+}

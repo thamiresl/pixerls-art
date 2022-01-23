@@ -11,5 +11,5 @@ function criarQuadrado() {
           criarColuna.body.appendChild(criarLinha);
           
   }  
-}
+};
 //https://stackoverflow.com/questions/55224589/document-createelementdiv-with-a-class
