@@ -1,8 +1,10 @@
 let corGuardada ='black';
 
 function selecionarCor(div) {
-  objetoDiv = document.getElementById(div);
+  let objetoDiv = document.getElementById(div);
   corGuardada = window.getComputedStyle(objetoDiv).backgroundColor;
+  document.getElementsByClassName('selected')[0].classList.remove('selected');
+  objetoDiv.classList.add('selected');
 }
 
 function colorirPixel(div) {
