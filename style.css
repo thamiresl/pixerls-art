@@ -33,13 +33,12 @@
 #pixel-board {
   background: black;
   display: inline-block;
-  border: 1px solid black;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(5, 39px);
-  grid-template-rows: repeat(5, 39px);
+  grid-template-columns: repeat(5, 42px);
+  grid-template-rows: repeat(5, 42px);
   grid-gap: 1px;
 }
 
@@ -50,8 +49,5 @@
   font-size: 3rem;
   font-weight: 600;
   background: white;
-}
-
-.pixel:houver {
-  background-color: blue;
+  border: 1px solid black;
 }
